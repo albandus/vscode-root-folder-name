@@ -1,0 +1,6 @@
+[tools]
+node = "lts"
+"npm:@vscode/vsce" = "latest"
+
+[tasks.package]
+run = "vsce package"

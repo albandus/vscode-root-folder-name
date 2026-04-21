@@ -1,0 +1,20 @@
+{
+  "name": "root-folder-name",
+  "displayName": "Root Folder Name",
+  "description": "Displays the current workspace root folder name in the status bar",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albandus/vscode-root-folder-name.git"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {},
+  "scripts": {
+    "lint": "eslint ."
+  }
+}
